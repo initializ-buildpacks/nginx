@@ -1,4 +1,4 @@
-module github.com/paketo-buildpacks/nginx/retrieval
+module github.com/initializ-buildpacks/nginx/retrieval
 
 go 1.18
 

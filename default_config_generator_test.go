@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	. "github.com/onsi/gomega"
-	"github.com/paketo-buildpacks/nginx"
+	"github.com/initializ-buildpacks/nginx"
 	"github.com/paketo-buildpacks/occam/matchers"
 	"github.com/paketo-buildpacks/packit/v2/scribe"
 	"github.com/sclevine/spec"

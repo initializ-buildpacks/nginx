@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/paketo-buildpacks/nginx/cmd/configure/internal"
+	"github.com/initializ-buildpacks/nginx/cmd/configure/internal"
 )
 
 func main() {

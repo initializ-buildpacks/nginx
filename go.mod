@@ -1,4 +1,4 @@
-module github.com/paketo-buildpacks/nginx
+module github.com/initializ-buildpacks/nginx
 
 go 1.19
 

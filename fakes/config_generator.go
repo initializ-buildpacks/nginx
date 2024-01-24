@@ -3,7 +3,7 @@ package fakes
 import (
 	"sync"
 
-	"github.com/paketo-buildpacks/nginx"
+	"github.com/initializ-buildpacks/nginx"
 )
 
 type ConfigGenerator struct {

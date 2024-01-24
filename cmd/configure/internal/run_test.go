@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/paketo-buildpacks/nginx/cmd/configure/internal"
+	"github.com/initializ-buildpacks/nginx/cmd/configure/internal"
 	"github.com/paketo-buildpacks/occam/matchers"
 	"github.com/sclevine/spec"
 	"github.com/sclevine/spec/report"

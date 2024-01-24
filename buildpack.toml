@@ -2,10 +2,10 @@ api = "0.7"
 
 [buildpack]
   description = "A buildpack for installing the appropriate Nginx server"
-  homepage = "https://github.com/paketo-buildpacks/nginx"
-  id = "paketo-buildpacks/nginx"
+  homepage = "https://github.com/initializ-buildpacks/nginx"
+  id = "initializ-buildpacks/nginx"
   keywords = ["nginx", "server", "distribution"]
-  name = "Paketo Buildpack for Nginx Server"
+  name = "Initializ Buildpack for Nginx Server"
   sbom-formats = ["application/vnd.cyclonedx+json", "application/spdx+json", "application/vnd.syft+json"]
 
 [metadata]
