@@ -24,7 +24,7 @@ api = "0.7"
     source = "https://nginx.org/download/nginx-1.25.2.tar.gz"
     source-checksum = "sha256:05dd6d9356d66a74e61035f2a42162f8c754c97cf1ba64e7a801ba158d6c0711"
     stacks = ["Initializ Distroless Stack"]
-    uri = "https://nginx.org/download/nginx-1.25.2.tar.gz"
+    uri = "https://artifacts.paketo.io/nginx/nginx_1.25.2_linux_x64_bionic_d91b4f07.tgz"
     version = "1.25.2"
 
   [[metadata.dependencies]]
@@ -37,7 +37,7 @@ api = "0.7"
     source = "https://nginx.org/download/nginx-1.25.2.tar.gz"
     source-checksum = "sha256:05dd6d9356d66a74e61035f2a42162f8c754c97cf1ba64e7a801ba158d6c0711"
     stacks = ["Initializ Distroless Stack"]
-    uri = "https://nginx.org/download/nginx-1.25.2.tar.gz"
+    uri = "https://artifacts.paketo.io/nginx/nginx_1.25.2_linux_x64_jammy_5d42eea6.tgz"
     version = "1.25.2"
 
   [[metadata.dependencies]]
@@ -50,7 +50,7 @@ api = "0.7"
     source = "https://nginx.org/download/nginx-1.25.3.tar.gz"
     source-checksum = "sha256:64c5b975ca287939e828303fa857d22f142b251f17808dfe41733512d9cded86"
     stacks = ["Initializ Distroless Stack"]
-    uri = "https://nginx.org/download/nginx-1.25.3.tar.gz"
+    uri = "https://artifacts.paketo.io/nginx/nginx_1.25.3_linux_x64_bionic_69321272.tgz"
     version = "1.25.3"
 
   [[metadata.dependencies]]
@@ -63,7 +63,7 @@ api = "0.7"
     source = "https://nginx.org/download/nginx-1.25.3.tar.gz"
     source-checksum = "sha256:64c5b975ca287939e828303fa857d22f142b251f17808dfe41733512d9cded86"
     stacks = ["Initializ Distroless Stack"]
-    uri = "https://nginx.org/download/nginx-1.25.3.tar.gz"
+    uri = "https://artifacts.paketo.io/nginx/nginx_1.25.3_linux_x64_jammy_d53d3983.tgz"
     version = "1.25.3"
 
   [[metadata.dependencies]]
@@ -76,7 +76,7 @@ api = "0.7"
     source = "https://nginx.org/download/nginx-1.24.0.tar.gz"
     source-checksum = "sha256:77a2541637b92a621e3ee76776c8b7b40cf6d707e69ba53a940283e30ff2f55d"
     stacks = ["Initializ Distroless Stack"]
-    uri = "https://nginx.org/download/nginx-1.24.0.tar.gz"
+    uri = "https://artifacts.paketo.io/nginx/nginx_1.24.0_linux_x64_bionic_e6becd9d.tgz"
     version = "1.24.0"
 
   [[metadata.dependencies]]
@@ -89,7 +89,7 @@ api = "0.7"
     source = "https://nginx.org/download/nginx-1.24.0.tar.gz"
     source-checksum = "sha256:77a2541637b92a621e3ee76776c8b7b40cf6d707e69ba53a940283e30ff2f55d"
     stacks = ["Initializ Distroless Stack"]
-    uri = "https://nginx.org/download/nginx-1.24.0.tar.gz"
+    uri = "https://artifacts.paketo.io/nginx/nginx_1.24.0_linux_x64_jammy_fa1dfe46.tgz"
     version = "1.24.0"
 
   [[metadata.dependency-constraints]]
@@ -107,5 +107,4 @@ api = "0.7"
 
 [[stacks]]
   id = "Initializ Distroless Stack"
-
 
