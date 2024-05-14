@@ -38,10 +38,10 @@ require (
 	github.com/vbatts/go-mtree v0.5.3 // indirect
 	github.com/vifraa/gopom v0.2.1 // indirect
 	github.com/wagoodman/go-progress v0.0.0-20230301185719-21920a456ad5 // indirect
-	golang.org/x/crypto v0.17.0 // indirect
-	golang.org/x/net v0.19.0 // indirect
+	golang.org/x/crypto v0.21.0 // indirect
+	golang.org/x/net v0.23.0 // indirect
 	golang.org/x/sync v0.5.0 // indirect
-	golang.org/x/sys v0.15.0 // indirect
+	golang.org/x/sys v0.18.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	gopkg.in/yaml.v2 v2.4.0
 )
