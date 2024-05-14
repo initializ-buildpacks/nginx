@@ -24,7 +24,7 @@ require (
 	github.com/moby/term v0.5.0 // indirect
 	github.com/nwaples/rardecode v1.1.3 // indirect
 	github.com/onsi/gomega v1.30.0
-	github.com/opencontainers/image-spec v1.1.0-rc5 // indirect
+	github.com/opencontainers/image-spec v1.1.0 // indirect
 	github.com/opencontainers/runc v1.1.10 // indirect
 	github.com/paketo-buildpacks/occam v0.18.0
 	github.com/paketo-buildpacks/packit/v2 v2.12.0
