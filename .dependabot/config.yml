@@ -1,6 +1,23 @@
 ---
-version: 1
-update_configs:
-- package_manager: "go:modules"
+version: 2
+updates:
+- package-ecosystem: gomod
   directory: "/"
-  update_schedule: "daily"
+  schedule:
+    interval: daily
+  allow:
+  # Allow both direct and indirect updates for all packages
+  - dependency-type: "all"
+  # group all minor and patch dependency updates together
+  groups:
+    go-modules:
+      patterns:
+      - "*"
+      update-types:
+      - "minor"
+      - "patch"
+      exclude-patterns:
+      - "github.com/anchore/stereoscope"
+      - "github.com/testcontainers/testcontainers-go"
+      - "github.com/docker/docker"
+      - "github.com/containerd/containerd"
