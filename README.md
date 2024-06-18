@@ -5,8 +5,8 @@ The buildpack installs the NGINX binary distribution onto the `$PATH` which
 makes it available for subsequent buildpacks and/or the application image.
 
 #### The NGINX buildpack is compatible with the following builder(s):
-- [Paketo Full Builder](https://github.com/paketo-buildpacks/full-builder)
-- [Paketo Base Builder](https://github.com/paketo-buildpacks/base-builder)
+- [Initializ Full Builder](https://github.com/paketo-buildpacks/full-builder)
+- [Initializ Base Builder](https://github.com/paketo-buildpacks/base-builder)
 
 ## Integration
 
