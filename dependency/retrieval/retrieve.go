@@ -78,7 +78,7 @@ func generateMetadata(hasVersion versionology.VersionFetcher) ([]versionology.De
 		Licenses:        retrieve.LookupLicenses(nginxURL, decompress),
 		PURL:            retrieve.GeneratePURL("nginx", nginxVersion, sourceSHA, nginxURL),
 		CPE:             fmt.Sprintf("cpe:2.3:a:nginx:nginx:%s:*:*:*:*:*:*:*", nginxVersion),
-		Stacks:          []string{"io.buildpacks.stacks.bionic"},
+		Stacks:          []string{"Initializ Distroless Stack"},
 	}
 
 	bionicDependency, err := versionology.NewDependency(dep, "bionic")
@@ -86,7 +86,7 @@ func generateMetadata(hasVersion versionology.VersionFetcher) ([]versionology.De
 		return nil, fmt.Errorf("could get sha: %w", err)
 	}
 
-	dep.Stacks = []string{"io.buildpacks.stacks.jammy"}
+	dep.Stacks = []string{"Initializ Distroless Stack"}
 
 	jammyDependency, err := versionology.NewDependency(dep, "jammy")
 	if err != nil {
