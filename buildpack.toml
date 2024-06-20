@@ -12,7 +12,7 @@ api = "0.7"
   include-files = ["bin/build", "bin/detect", "bin/run", "bin/configure", "buildpack.toml"]
   pre-package = "./scripts/build.sh"
   [metadata.default-versions]
-    nginx = "1.25.*"
+    nginx = "1.26.*"
 
   [[metadata.dependencies]]
     checksum = "sha256:12775fe60e83b5a3a93b124654ea176f21bf750190d45641317ff2b48637bb35"
