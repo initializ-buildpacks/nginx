@@ -33,12 +33,12 @@ api = "0.7"
     patches = 2
 
   [[metadata.dependency-constraints]]
-    constraint = "1.26.*"
+    constraint = "1.25.*"
     id = "nginx"
     patches = 2
   [metadata.version-lines]
     mainline = "1.25.*"
-    stable = "1.26.*"
+    stable = "1.25.*"
 
 [[stacks]]
   id = "Initializ Distroless Stack"
