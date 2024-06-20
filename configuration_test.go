@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/paketo-buildpacks/nginx"
-	"github.com/paketo-buildpacks/nginx/fakes"
+	"github.com/initializ-buildpacks/nginx"
+	"github.com/initializ-buildpacks/nginx/fakes"
 	"github.com/paketo-buildpacks/packit/v2/servicebindings"
 	"github.com/sclevine/spec"
 

@@ -2,10 +2,10 @@ api = "0.7"
 
 [buildpack]
   description = "A buildpack for installing the appropriate Nginx server"
-  homepage = "https://github.com/paketo-buildpacks/nginx"
-  id = "paketo-buildpacks/nginx"
+  homepage = "https://github.com/initializ-buildpacks/nginx"
+  id = "initializ-buildpacks/nginx"
   keywords = ["nginx", "server", "distribution"]
-  name = "Paketo Buildpack for Nginx Server"
+  name = "Initializ Buildpack for Nginx Server"
   sbom-formats = ["application/vnd.cyclonedx+json", "application/spdx+json", "application/vnd.syft+json"]
 
 [metadata]
@@ -23,7 +23,7 @@ api = "0.7"
     purl = "pkg:generic/nginx@1.25.4?checksum=760729901acbaa517996e681ee6ea259032985e37c2768beef80df3a877deed9&download_url=https://nginx.org/download/nginx-1.25.4.tar.gz"
     source = "https://nginx.org/download/nginx-1.25.4.tar.gz"
     source-checksum = "sha256:760729901acbaa517996e681ee6ea259032985e37c2768beef80df3a877deed9"
-    stacks = ["io.buildpacks.stacks.bionic"]
+    stacks = ["Initializ Distroless Stack"]
     uri = "https://artifacts.paketo.io/nginx/nginx_1.25.4_linux_x64_bionic_12775fe6.tgz"
     version = "1.25.4"
 
@@ -36,7 +36,7 @@ api = "0.7"
     purl = "pkg:generic/nginx@1.25.4?checksum=760729901acbaa517996e681ee6ea259032985e37c2768beef80df3a877deed9&download_url=https://nginx.org/download/nginx-1.25.4.tar.gz"
     source = "https://nginx.org/download/nginx-1.25.4.tar.gz"
     source-checksum = "sha256:760729901acbaa517996e681ee6ea259032985e37c2768beef80df3a877deed9"
-    stacks = ["io.buildpacks.stacks.jammy"]
+    stacks = ["Initializ Distroless Stack"]
     uri = "https://artifacts.paketo.io/nginx/nginx_1.25.4_linux_x64_jammy_6d24754a.tgz"
     version = "1.25.4"
 
@@ -49,7 +49,7 @@ api = "0.7"
     purl = "pkg:generic/nginx@1.25.5?checksum=2fe2294f8af4144e7e842eaea884182a84ee7970e11046ba98194400902bbec0&download_url=https://nginx.org/download/nginx-1.25.5.tar.gz"
     source = "https://nginx.org/download/nginx-1.25.5.tar.gz"
     source-checksum = "sha256:2fe2294f8af4144e7e842eaea884182a84ee7970e11046ba98194400902bbec0"
-    stacks = ["io.buildpacks.stacks.bionic"]
+    stacks = ["Initializ Distroless Stack"]
     uri = "https://artifacts.paketo.io/nginx/nginx_1.25.5_linux_x64_bionic_955da83b.tgz"
     version = "1.25.5"
 
@@ -62,7 +62,7 @@ api = "0.7"
     purl = "pkg:generic/nginx@1.25.5?checksum=2fe2294f8af4144e7e842eaea884182a84ee7970e11046ba98194400902bbec0&download_url=https://nginx.org/download/nginx-1.25.5.tar.gz"
     source = "https://nginx.org/download/nginx-1.25.5.tar.gz"
     source-checksum = "sha256:2fe2294f8af4144e7e842eaea884182a84ee7970e11046ba98194400902bbec0"
-    stacks = ["io.buildpacks.stacks.jammy"]
+    stacks = ["Initializ Distroless Stack"]
     uri = "https://artifacts.paketo.io/nginx/nginx_1.25.5_linux_x64_jammy_ce1f1d6a.tgz"
     version = "1.25.5"
 
@@ -75,7 +75,7 @@ api = "0.7"
     purl = "pkg:generic/nginx@1.26.0?checksum=d2e6c8439d6c6db5015d8eaab2470ab52aef85a7bf363182879977e084370497&download_url=https://nginx.org/download/nginx-1.26.0.tar.gz"
     source = "https://nginx.org/download/nginx-1.26.0.tar.gz"
     source-checksum = "sha256:d2e6c8439d6c6db5015d8eaab2470ab52aef85a7bf363182879977e084370497"
-    stacks = ["io.buildpacks.stacks.bionic"]
+    stacks = ["Initializ Distroless Stack"]
     uri = "https://artifacts.paketo.io/nginx/nginx_1.26.0_linux_x64_bionic_af58bf80.tgz"
     version = "1.26.0"
 
@@ -88,7 +88,7 @@ api = "0.7"
     purl = "pkg:generic/nginx@1.26.0?checksum=d2e6c8439d6c6db5015d8eaab2470ab52aef85a7bf363182879977e084370497&download_url=https://nginx.org/download/nginx-1.26.0.tar.gz"
     source = "https://nginx.org/download/nginx-1.26.0.tar.gz"
     source-checksum = "sha256:d2e6c8439d6c6db5015d8eaab2470ab52aef85a7bf363182879977e084370497"
-    stacks = ["io.buildpacks.stacks.jammy"]
+    stacks = ["Initializ Distroless Stack"]
     uri = "https://artifacts.paketo.io/nginx/nginx_1.26.0_linux_x64_jammy_d1f015b9.tgz"
     version = "1.26.0"
 
@@ -101,7 +101,7 @@ api = "0.7"
     purl = "pkg:generic/nginx@1.26.1?checksum=f9187468ff2eb159260bfd53867c25ff8e334726237acf227b9e870e53d3e36b&download_url=https://nginx.org/download/nginx-1.26.1.tar.gz"
     source = "https://nginx.org/download/nginx-1.26.1.tar.gz"
     source-checksum = "sha256:f9187468ff2eb159260bfd53867c25ff8e334726237acf227b9e870e53d3e36b"
-    stacks = ["io.buildpacks.stacks.bionic"]
+    stacks = ["Initializ Distroless Stack"]
     uri = "https://artifacts.paketo.io/nginx/nginx_1.26.1_linux_x64_bionic_f9c178e3.tgz"
     version = "1.26.1"
 
@@ -114,7 +114,7 @@ api = "0.7"
     purl = "pkg:generic/nginx@1.26.1?checksum=f9187468ff2eb159260bfd53867c25ff8e334726237acf227b9e870e53d3e36b&download_url=https://nginx.org/download/nginx-1.26.1.tar.gz"
     source = "https://nginx.org/download/nginx-1.26.1.tar.gz"
     source-checksum = "sha256:f9187468ff2eb159260bfd53867c25ff8e334726237acf227b9e870e53d3e36b"
-    stacks = ["io.buildpacks.stacks.jammy"]
+    stacks = ["Initializ Distroless Stack"]
     uri = "https://artifacts.paketo.io/nginx/nginx_1.26.1_linux_x64_jammy_dcf6262d.tgz"
     version = "1.26.1"
 
@@ -132,7 +132,4 @@ api = "0.7"
     stable = "1.26.*"
 
 [[stacks]]
-  id = "io.buildpacks.stacks.bionic"
-
-[[stacks]]
-  id = "io.buildpacks.stacks.jammy"
+  id = "Initializ Distroless Stack"

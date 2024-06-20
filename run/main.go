@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/paketo-buildpacks/nginx"
+	"github.com/initializ-buildpacks/nginx"
 	"github.com/paketo-buildpacks/packit/v2"
 	"github.com/paketo-buildpacks/packit/v2/cargo"
 	"github.com/paketo-buildpacks/packit/v2/chronos"

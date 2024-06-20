@@ -16,8 +16,8 @@ jobs:
       - name: Publish Draft Release With Highest Semantic Version
         id: drafts
         env:
-          GITHUB_TOKEN: ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
-        uses: paketo-buildpacks/github-config/actions/release/publish-drafts@main
+          GITHUB_TOKEN: ${{ secrets.PAT }}
+        uses: initializ-buildpacks/github-config/actions/release/publish-drafts@main
         with:
           repo: ${{ github.repository }}
 
@@ -28,7 +28,7 @@ jobs:
     if: ${{ always() && needs.publish.result == 'failure' }}
     steps:
       - name: File Failure Alert Issue
-        uses: paketo-buildpacks/github-config/actions/issue/file@main
+        uses: initializ-buildpacks/github-config/actions/issue/file@main
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           repo: ${{ github.repository }}

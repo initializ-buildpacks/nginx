@@ -1,4 +1,4 @@
-module github.com/paketo-buildpacks/nginx
+module github.com/initializ-buildpacks/nginx
 
 go 1.21
 
@@ -46,6 +46,8 @@ require (
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	gopkg.in/yaml.v2 v2.4.0
 )
+
+require github.com/paketo-buildpacks/nginx v0.16.1
 
 require (
 	dario.cat/mergo v1.0.0 // indirect
