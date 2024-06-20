@@ -14,7 +14,18 @@ api = "0.7"
   [metadata.default-versions]
     nginx = "1.25.*"
 
-
+  [[metadata.dependencies]]
+    checksum = "sha256:12775fe60e83b5a3a93b124654ea176f21bf750190d45641317ff2b48637bb35"
+    cpe = "cpe:2.3:a:nginx:nginx:1.25.4:*:*:*:*:*:*:*"
+    id = "nginx"
+    licenses = ["BSD-2-Clause"]
+    name = "Nginx Server"
+    purl = "pkg:generic/nginx@1.25.4?checksum=760729901acbaa517996e681ee6ea259032985e37c2768beef80df3a877deed9&download_url=https://nginx.org/download/nginx-1.25.4.tar.gz"
+    source = "https://nginx.org/download/nginx-1.25.4.tar.gz"
+    source-checksum = "sha256:760729901acbaa517996e681ee6ea259032985e37c2768beef80df3a877deed9"
+    stacks = ["Initializ Distroless Stack"]
+    uri = "https://artifacts.paketo.io/nginx/nginx_1.25.4_linux_x64_bionic_12775fe6.tgz"
+    version = "1.25.4"
 
   [[metadata.dependency-constraints]]
     constraint = "1.25.*"
