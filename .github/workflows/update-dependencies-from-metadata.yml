@@ -5,12 +5,6 @@ on:
   schedule:
     - cron: '57 13 * * *' # daily at 13:57 UTC
 
-env:
-  AWS_REGION : "us-east-1"   
-permissions:
-  id-token: write   # This is required for requesting the JWT
-  contents: write    # This is required for actions/checkout    
-
 jobs:
   retrieve:
     name: Retrieve New Versions and Generate Metadata
@@ -226,12 +220,6 @@ jobs:
         run: |
           echo "artifact-file=$(basename ./*.tgz)" >> "$GITHUB_OUTPUT"
           echo "checksum-file=$(basename ./*.tgz.checksum)" >> "$GITHUB_OUTPUT"
-
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v2
-        with:
-          role-to-assume:  ${{ secrets.ROLE }}
-          aws-region: ${{ env.AWS_REGION }}
 
       - name: Get Checksum
         id: get-checksum
