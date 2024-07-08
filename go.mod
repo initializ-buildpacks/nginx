@@ -14,7 +14,7 @@ require (
 	github.com/anchore/syft v0.80.0 // indirect
 	github.com/bmatcuk/doublestar/v4 v4.6.1 // indirect
 	github.com/docker/cli v27.0.2+incompatible // indirect
-	github.com/docker/docker v26.1.4+incompatible // indirect
+	github.com/docker/docker v27.0.3+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.8.2 // indirect
 	github.com/facebookincubator/nvdtools v0.1.5 // indirect
 	github.com/imdario/mergo v0.3.15 // indirect
@@ -135,7 +135,7 @@ require (
 	github.com/skeema/knownhosts v1.2.2 // indirect
 	github.com/spf13/cast v1.6.0 // indirect
 	github.com/sylabs/squashfs v0.6.1 // indirect
-	github.com/testcontainers/testcontainers-go v0.31.0 // indirect
+	github.com/testcontainers/testcontainers-go v0.32.0 // indirect
 	github.com/therootcompany/xz v1.0.1 // indirect
 	github.com/tklauser/go-sysconf v0.3.14 // indirect
 	github.com/tklauser/numcpus v0.8.0 // indirect
