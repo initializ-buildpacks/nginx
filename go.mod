@@ -26,7 +26,7 @@ require (
 	github.com/onsi/gomega v1.34.1
 	github.com/opencontainers/image-spec v1.1.0 // indirect
 	github.com/paketo-buildpacks/occam v0.18.7
-	github.com/paketo-buildpacks/packit/v2 v2.14.1
+	github.com/paketo-buildpacks/packit/v2 v2.14.2
 	github.com/pierrec/lz4/v4 v4.1.21 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/sclevine/spec v1.4.0
