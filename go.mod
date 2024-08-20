@@ -12,7 +12,7 @@ require (
 	github.com/anchore/syft v0.80.0 // indirect
 	github.com/bmatcuk/doublestar/v4 v4.6.1 // indirect
 	github.com/docker/cli v27.1.2+incompatible // indirect
-	github.com/docker/docker v26.1.4+incompatible // indirect
+	github.com/docker/docker v27.1.1+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.8.2 // indirect
 	github.com/facebookincubator/nvdtools v0.1.5 // indirect
 	github.com/imdario/mergo v0.3.15 // indirect
@@ -33,7 +33,7 @@ require (
 	github.com/shopspring/decimal v1.4.0 // indirect
 	github.com/spdx/tools-golang v0.5.5 // indirect
 	github.com/spf13/afero v1.11.0 // indirect
-	github.com/sylabs/sif/v2 v2.18.0 // indirect
+	github.com/sylabs/sif/v2 v2.19.0 // indirect
 	github.com/vbatts/go-mtree v0.5.4 // indirect
 	github.com/vifraa/gopom v0.2.1 // indirect
 	github.com/wagoodman/go-progress v0.0.0-20230925121702-07e42b3cdba0 // indirect
@@ -47,12 +47,12 @@ require (
 
 require (
 	dario.cat/mergo v1.0.1 // indirect
-	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
+	github.com/Azure/go-ansiterm v0.0.0-20230124172434-306776ec8161 // indirect
 	github.com/ForestEckhardt/freezer v0.1.0 // indirect
 	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/Masterminds/semver/v3 v3.2.1 // indirect
 	github.com/Masterminds/sprig/v3 v3.2.3 // indirect
-	github.com/Microsoft/hcsshim v0.12.5 // indirect
+	github.com/Microsoft/hcsshim v0.12.6 // indirect
 	github.com/ProtonMail/go-crypto v1.1.0-alpha.4-proton // indirect
 	github.com/acobaugh/osrelease v0.1.0 // indirect
 	github.com/anchore/go-logger v0.0.0-20230120230012-47be9bb822a2 // indirect
@@ -149,7 +149,7 @@ require (
 	golang.org/x/exp v0.0.0-20240719175910-8a7402abbf56 // indirect
 	golang.org/x/mod v0.20.0 // indirect
 	golang.org/x/text v0.17.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20240528184218-531527333157 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20240701130421-f6361c86f094 // indirect
 	google.golang.org/grpc v1.65.0 // indirect
 	google.golang.org/protobuf v1.34.2 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
